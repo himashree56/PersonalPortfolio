@@ -43,6 +43,7 @@ const Contact = () => {
     setTimeout(() => {
       alert('Your Message Has Been Sent!');
       setFormData({ name: '', email: '', message: '' });
+      setFormStatus({ submitted: true, error: false, message: 'Thank You for Visiting!', loading: false });
     }, 1000);
   };
 
