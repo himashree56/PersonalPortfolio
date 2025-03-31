@@ -23,30 +23,30 @@ const Header = () => {
           <span className={`hamburger ${isMenuOpen ? 'active' : ''}`}></span>
         </button>
 
-        <nav className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
+        <nav className={`nav-menu ${isMenuOpen ? 'active' : ''}`} >
           <ul>
             <li>
-              <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}>
+              <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}>
+              <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink to="/projects" className={({ isActive }) => isActive ? 'active' : ''}>
+              <NavLink to="/projects" className={({ isActive }) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>
                 Projects
               </NavLink>
             </li>
             <li>
-              <NavLink to="/HobbiesAndCertification" className={({ isActive }) => isActive ? 'active' : ''}>
+              <NavLink to="/HobbiesAndCertification" className={({ isActive }) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>
                 Certifications & Hobbies
               </NavLink>
             </li>
             <li>
-              <NavLink to="/contact" className={({ isActive }) => isActive ? 'active' : ''}>
+              <NavLink to="/contact" className={({ isActive }) => isActive ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>
                 Contact
               </NavLink>
             </li>
