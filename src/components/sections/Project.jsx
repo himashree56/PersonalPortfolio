@@ -10,7 +10,7 @@ const Projects = () => {
       id: 1,
       title: "Coffee Website",
       description: "A seamless browsing experience for customers to explore a coffee shop’s diverse menu",
-      image: "/public/images/CoffeeWebsite.png",
+      image: "/images/CoffeeWebsite.png",
       technologies: ['HTML','CSS'],
       liveUrl: "  https://lnkd.in/gPvSmfNy",
       githubUrl: "https://github.com/himashree56/CoffeWebsite.git"
@@ -19,7 +19,7 @@ const Projects = () => {
       id: 2,
       title: "Innomatics Website Clone",
       description: "A Clone of Innomatics Website",
-      image: "/public/images/Innomatics.png",
+      image: "/images/Innomatics.png",
       technologies: ["HTML", "CSS", "Javascript"],
       liveUrl: " https://lnkd.in/gSgi6VJW",
       githubUrl: "https://github.com/himashree56/InnomaticsClone.git"
@@ -28,7 +28,7 @@ const Projects = () => {
       id: 3,
       title: "Todo App",
       description: "A minimalist todo application with task categorization and Task Tracking Functionalities",
-      image: "/public/images/Todo.png",
+      image: "/images/Todo.png",
       technologies: ["React"],
       liveUrl: " https://lnkd.in/gYbkt2HA",
       githubUrl: "https://github.com/himashree56/TodoList.git"
@@ -37,7 +37,7 @@ const Projects = () => {
         id: 4,
         title: "Memory Game",
         description: "My New Basic Memory Match Game",
-        image: "/public/images/MemoryMatchGame.png",
+        image: "/images/MemoryMatchGame.png",
         technologies: ["JavaScript", "HTML", "CSS"],
         liveUrl: " https://lnkd.in/gEZCm38x",
         githubUrl: "https://github.com/himashree56/MemoryGame.git"
@@ -46,7 +46,7 @@ const Projects = () => {
         id: 5,
         title: "TECHZWONE - YOUR ONE-STOP SHOP FOR THE LATEST TECH!",
         description: "My latest e-commerce platform designed to offer a seamless shopping experience for electronics enthusiasts",
-        image: "/public/images/E-Commerce.png",
+        image: "/images/E-Commerce.png",
         technologies: ["JavaScript", "HTML", "CSS"],
         liveUrl: " https://lnkd.in/gu6_hnMa",
         githubUrl: "https://github.com/himashree56/Ecommerce.git"
@@ -55,7 +55,7 @@ const Projects = () => {
         id: 6,
         title: "Personal Portfolio",
         description: "A personal portfolio website showcasing projects, skills, and achievements with a responsive and modern design",
-        image: "/public/images/PeraonalPortfolio.png",
+        image: "/images/PeraonalPortfolio.png",
         technologies: ["JavaScript", "HTML", "CSS", "LocalStorage"],
         liveUrl: "https://todo-app-demo.example.com",
         githubUrl: "https://github.com/himashree56/TenUseCases.git"
