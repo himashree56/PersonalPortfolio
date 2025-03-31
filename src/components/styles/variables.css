@@ -38,10 +38,10 @@
   --container-width: 120rem;
   --header-height: 8rem;
   --footer-height: 6rem;
-  --border-radius-sm: 0.4rem; /* Slightly Rounded */
-  --border-radius-md: 0.8rem; /* Moderately Rounded */
-  --border-radius-lg: 1.2rem; /* Very Rounded */
-  --border-width: 0.3rem; /* Thin Border */
+  --border-radius-sm: 0.4rem; 
+  --border-radius-md: 0.8rem; 
+  --border-radius-lg: 1.2rem; 
+  --border-width: 0.3rem;
 
   
   --font-family: 'Helvetica', sans-serif;
