@@ -11,15 +11,15 @@ function Footer() {
                 <div className="social-links">
                     <SocialIcon
                         href="https://github.com/himashree56"
-                        icon="/public/images/icons8-github.svg"
+                        icon="/images/icons8-github.svg"
                         label="GitHub" />
                     <SocialIcon
                         href="https://www.linkedin.com/in/hima-a0881134a/"
-                        icon="public\images\icons8-linkedin.svg"
+                        icon="/images/icons8-linkedin.svg"
                         label="LinkedIn" />
                     <SocialIcon
                         href="https://himashree966@gmail.com/"
-                        icon="public/images/icons8-gmail.svg"
+                        icon="/images/icons8-gmail.svg"
                         label="Gmail" />
                 </div>
                 <p className="copyright">© {new Date().getFullYear()} Himasree Panku. All rights reserved.</p>
