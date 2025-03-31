@@ -57,7 +57,7 @@ const Projects = () => {
         description: "A personal portfolio website showcasing projects, skills, and achievements with a responsive and modern design",
         image: "/images/PeraonalPortfolio.png",
         technologies: ["JavaScript", "HTML", "CSS", "LocalStorage"],
-        liveUrl: "https://todo-app-demo.example.com",
+        liveUrl: "https://personal-portfolio-omega-ashy.vercel.app/",
         githubUrl: "https://github.com/himashree56/PersonalPortfolio.git"
       },
   ]
