@@ -1,0 +1,122 @@
+@import url('./variables.css');
+@import url('./neobrutalism.css');
+@import url('./components.css');
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%; 
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+  background:linear-gradient(coral,white cyan);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+a:hover {
+  color: var(--primary-dark);
+}
+
+button, input, textarea, select {
+  font: inherit;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.section-container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 8rem 2rem;
+}
+.section-title {
+  font-size: 4.2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -0.8rem;
+  left: 0;
+  width: 40%;
+  height: 0.6rem;
+  background-color: var(--primary);
+}
+
+.section-subtitle {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  color: var(--text-secondary);
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 56.25%;
+  }
+  .section-container {
+    padding: 6rem 2rem;
+  }
+  .section-title {
+    font-size: 3.6rem;
+  }
+  .section-subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 50%; 
+  }
+  .section-container {
+    padding: 4rem 1.5rem;
+  }
+  .section-title {
+    font-size: 3rem;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.text-center {
+  text-align: center;
+}
+.hidden {
+  display: none !important;
+}

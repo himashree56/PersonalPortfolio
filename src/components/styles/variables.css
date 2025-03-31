@@ -1,0 +1,60 @@
+:root {
+  --primary: coral; 
+  --primary-light: rgb(255, 122, 144); 
+  --primary-dark: rgb(59, 4, 51); 
+
+  --secondary: rgb(0, 194, 255); 
+  --secondary-light: rgb(64, 210, 255); 
+  --secondary-dark: rgb(0, 144, 192); 
+
+
+  --accent: rgb(255, 190, 11);
+  --accent-light: rgb(255, 206, 75);
+  --accent-dark: rgb(217, 158, 0); 
+
+  
+  --success: rgb(6, 214, 160);
+  --error: rgb(239, 71, 111); 
+  --warning: rgb(255, 209, 102); 
+
+  --bg-primary: rgb(255, 255, 255);
+  --bg-secondary: rgb(248, 249, 250);
+  --bg-tertiary: rgb(239, 240, 243);
+
+  --text-primary: rgb(43, 44, 52); 
+  --text-secondary: rgb(106, 107, 117);
+  --text-tertiary: rgb(154, 155, 166); 
+
+
+  --black: rgb(0, 0, 0);
+  --white: rgb(255, 255, 255);
+
+
+  --shadow-sm: 4px 4px 0 rgba(0, 0, 0, 0.9);
+  --shadow-md: 6px 6px 0 rgba(0, 0, 0, 0.9);
+  --shadow-lg: 8px 8px 0 rgba(0, 0, 0, 0.9);
+
+  
+  --container-width: 120rem;
+  --header-height: 8rem;
+  --footer-height: 6rem;
+  --border-radius-sm: 0.4rem; /* Slightly Rounded */
+  --border-radius-md: 0.8rem; /* Moderately Rounded */
+  --border-radius-lg: 1.2rem; /* Very Rounded */
+  --border-width: 0.3rem; /* Thin Border */
+
+  
+  --font-family: 'Helvetica', sans-serif;
+  --font-family-heading: 'Helvetica-Bold', sans-serif;
+
+  
+  --transition-fast: 0.2s ease; 
+  --transition-normal: 0.3s ease; 
+  --transition-slow: 0.5s ease; 
+
+  --z-back: -1; 
+  --z-normal: 1; 
+  --z-tooltip: 10; 
+  --z-fixed: 100; 
+  --z-modal: 1000;
+}

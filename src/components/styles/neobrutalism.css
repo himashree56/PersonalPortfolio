@@ -1,0 +1,99 @@
+.button {
+  display: inline-block;
+  padding: 1.2rem 2.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  cursor: pointer;
+  border: 3px solid black;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+.button-primary {
+  background-color: coral; 
+  color: white;
+  box-shadow: 5px 5px 0 black;
+}
+.button-outline {
+  background:repeating-conic-gradient(coral , cyan );
+  color: maroon;
+  border-color: rgb(243, 89, 34);
+  box-shadow: 5px 5px 0 black;
+}
+
+.button:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 8px 8px 0 black;
+}
+
+.button:active {
+  transform: translate(0, 0);
+  box-shadow: none;
+}
+
+.neo-form input,
+.neo-form textarea,
+.neo-form select {
+  width: 100%;
+  padding: 1.2rem;
+  margin-bottom: 2rem;
+  border: 3px solid black;
+  background-color: white;
+  box-shadow: 5px 5px 0 black;
+  transition: all 0.3s ease;
+}
+
+.neo-form input:focus,
+.neo-form textarea:focus,
+.neo-form select:focus {
+  outline: none;
+  transform: translate(-3px, -3px);
+  box-shadow: 8px 8px 0 black;
+}
+
+.neo-form label {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 1.4rem;
+}
+
+.project-card {
+  border: 3px solid black;
+  background-color: white;
+  box-shadow: 10px 10px 0 black;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 14px 14px 0 black;
+}
+.tech-tag,
+.skill-tag {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  margin: 0.4rem;
+  background-color: #eeeeee;
+  border: 3px solid black;
+  box-shadow: 3px 3px 0 black;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.tech-tag {
+  background-color: cyan;
+  color: black;
+}
+
+.skill-tag {
+  background-color: coral; 
+  color: rgb(64, 0, 0);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
