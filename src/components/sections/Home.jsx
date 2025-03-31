@@ -5,7 +5,7 @@ import '../styles/components.css';
 import '../styles/global.css';
 import '../styles/variables.css';
 import '../styles/neobrutalism.css';
-import './public/images';
+import ProfilePic.png from './public/images';
 
 const roles = [
   { title: "ML & Full-Stack Developer", description: "Building intelligent applications with AI & modern web technologies." },
