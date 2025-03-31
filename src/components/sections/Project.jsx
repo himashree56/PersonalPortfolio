@@ -58,7 +58,7 @@ const Projects = () => {
         image: "/images/PeraonalPortfolio.png",
         technologies: ["JavaScript", "HTML", "CSS", "LocalStorage"],
         liveUrl: "https://todo-app-demo.example.com",
-        githubUrl: "https://github.com/himashree56/TenUseCases.git"
+        githubUrl: "https://github.com/himashree56/PersonalPortfolio.git"
       },
   ]
 
