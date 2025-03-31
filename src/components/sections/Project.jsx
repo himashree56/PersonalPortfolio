@@ -19,7 +19,7 @@ const Projects = () => {
       id: 2,
       title: "Innomatics Website Clone",
       description: "A Clone of Innomatics Website",
-      image: "/images/Innomatics.png",
+      image: "/images/Innomatics.jpg",
       technologies: ["HTML", "CSS", "Javascript"],
       liveUrl: " https://lnkd.in/gSgi6VJW",
       githubUrl: "https://github.com/himashree56/InnomaticsClone.git"
