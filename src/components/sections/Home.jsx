@@ -5,7 +5,6 @@ import '../styles/components.css';
 import '../styles/global.css';
 import '../styles/variables.css';
 import '../styles/neobrutalism.css';
-import ProfilePic.png from './public/images';
 
 const roles = [
   { title: "ML & Full-Stack Developer", description: "Building intelligent applications with AI & modern web technologies." },
@@ -119,7 +118,7 @@ const Home = () => {
         </div>
         <div className="hero-image">
           <img
-            src="/public/images/ProfilePic.png/"
+            src="/images/ProfilePic.png"
             alt="Himasree Panku - ML & Full-Stack Developer"
             loading="lazy" className='image-container'
           />
