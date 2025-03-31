@@ -118,7 +118,7 @@ const Home = () => {
         </div>
         <div className="hero-image">
           <img
-            src="/public/images/ProfilePic.png"
+            src="public/images/ProfilePic.png"
             alt="Himasree Panku - ML & Full-Stack Developer"
             loading="lazy" className='image-container'
           />
